@@ -1,0 +1,248 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.eLogo{
+    color: #4bcaff;
+}
+.imageHero {
+    background-image: url("/images/HERO.jpg");
+    height: 70vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.navBar {
+    height: 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+    font-size: 2em;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.encadre{
+    border: 2px solid #4bcaff;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #4bcaff;
+}
+
+.encadreDeux {
+    border: 2px solid #4bcaff;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #4bcaff;
+
+}
+
+
+.menu, a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.citationHero {
+    height: 90%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.un, .deux {
+    padding-right: 5vh;
+    padding-left: 5vh;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.53);
+    font-size:3em;
+}
+
+.cadranBleu {
+
+    background-color: #4bcaff;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+}
+
+.services {
+    color: white;
+    font-family: Ubuntu;
+    align-items: center;
+}
+
+.pictoServices {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.titleServices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textServices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBarDeux{
+    height: 10%;
+    color: black;
+    font-size: 2em;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.navBarDeux a {
+    margin-top: 20px:;
+    color: black;
+}
+
+.lineUne img {
+    width: 400px;
+    height: 230px;
+    margin: 0 10px;
+}
+
+.lineUne {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.lineDeux img {
+    width: 400px;
+    height: 230px;
+    margin: 0 10px;
+}
+
+.lineDeux {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.defaultSection {
+    width: 100vw;
+    height: 50vh;
+    font-family: Ubuntu;
+    color: white;;
+    margin-top: 50px;
+    background-color: #515f67;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+
+button {
+        background-color: transparent;
+        color: black;
+        border: 2px solid black;
+        padding: 10px 20px;
+        font-size: 16px;
+}
+
+.twitter {
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    background-color: #4bcaff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.twitter img {
+    height: 30px;
+}
+
+.twitterDescription {
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    background-color: #4bcaff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guillemets {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guillemets img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
