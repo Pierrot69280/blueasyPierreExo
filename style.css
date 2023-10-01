@@ -150,16 +150,20 @@ html, body {
 }
 
 .defaultSection {
+    padding-left: 2.5cm;
     width: 100vw;
     height: 50vh;
     font-family: Ubuntu;
-    color: white;
+    color: white;;
     margin-top: 50px;
     background-color: #515f67;
-    display: flex;
-    justify-content: space-evenly;
+    display: flex;;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+}
+
+.video {
+    padding-right: 5cm
 }
 
 button {
@@ -176,13 +180,19 @@ button {
     color: white;
     background-color: #4bcaff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
 
 .twitter img {
     height: 30px;
+    padding-right: 5cm;
+}
+
+.twitter h2 {
+    font-family: Ubuntu;
+    padding-left: 2.3cm;
 }
 
 .twitterDescription {
@@ -191,58 +201,137 @@ button {
     color: white;
     background-color: #4bcaff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 20px;
+    padding-left: 2.3cm;
 }
 
+.johnTittle {
+    color: white;
+    font-family: Ubuntu;
+    background-color: #8cb3d7;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3cm;
+}
 
+.left {
+    padding-left: 2.3cm;
+}
 
+.right {
+    padding-right: 2.5cm;
+    padding-top: 1cm;
+}
 
+.logoJohn {
 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logoJohn img {
+    margin-right: 20px;
+}
 
 .guillemets {
     width: 100vw;
     height: 10vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 2cm;
 }
 
 .guillemets img {
+    padding-right: 6.8cm;
     width: 40px;
-    height: 40px;
+    height: 35px;
+}
+
+.textTestimonials {
+    font-family: Ubuntu;
+    padding-left: 2cm;
+}
+
+.textTestimonials h3 {
+    font-family: Ubuntu;
+    color: #4bcaff;
+}
+
+.contactCadre {
+    color: white;
+    font-family: Ubuntu;nt
+}
+
+.contactTittle {
+    padding-left: 2cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8cb3d7;
+    width: 100vw;
+    height: 10vh;
+}
+
+.contactCadre {
+    width: 100vw;
+}
+
+form {
+    font-family: Ubuntu;
+    background-color: #4bcaff;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 1cm;
+    padding-left: 2cm;
+    background-color: #8cb3d7;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-color: white;
+    border-top-color: white;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #8cb3d7
 }
 
 
+.textArea {
+    width: 85vw;
+    height: 10vh;
+}
+
+.button {
+    color: white;
+    font-family: Ubuntu;
+    width: 7cm;
+    height: 1.5cm;
+    background-color: #4bcaff;
+    border: none;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bandeFin{
+    font-family: Ubuntu;
+    display: flex;
+    background-color: #3e515b;
+    color: white;
+    padding-right: 5cm;
+}
+.menuFin {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: #3e515b;
+    padding-left: 1.5cm;
+}
